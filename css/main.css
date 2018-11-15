@@ -27,6 +27,7 @@ article {
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 article header {
@@ -35,6 +36,7 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
 article > p:last-child {
@@ -57,10 +59,10 @@ blockquote {
    font-size: 100%;
    line-height: 1.3;
   }
-  h1,
+  /* h1,
   p {
     margin: 0 0 1.3rem;
-  }
+  } */
 }
 
 @media only screen and (min-width: 38em) {
@@ -69,10 +71,10 @@ blockquote {
     font-size: 110%;
     line-height: 1.4;
   }
-  h1,
+  /* h1,
   p {
     margin: 0 0 1.4rem;
-  }
+  } */
 
 }
 
@@ -82,9 +84,9 @@ blockquote {
     font-size: 120%;
     line-height: 1.5;
   }
-  h1,
+  /* h1,
   p {
     margin: 0 0 1.5rem;
-  }
+  } */
 
 }
